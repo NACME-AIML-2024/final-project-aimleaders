@@ -4,14 +4,14 @@
 Name of your team's final project
 -->
 # Final-project - Using ML to Predict Distress in Cancer Patients
-## [National Action Council for Minorities in Engineering(NACME)](https://www.nacme.org) Artificial Intelligence - Machine Learning (AIML) Intensive Summer Bootcamp at the [University of Southern California](https://viterbischool.usc.edu)
+##  Apple [National Action Council for Minorities in Engineering(NACME)](https://www.nacme.org) Artificial Intelligence - Machine Learning (AIML) Intensive Summer Bootcamp at the [University of Southern California](https://viterbischool.usc.edu)
 
 <!--
 List all of the members who developed the project and
 link to each members respective GitHub profile
 -->
 Developed by: 
-- [Rabiat Sadiq](https://github.com/rabiats) - `Computer Engineer /CS` - `University of Texas at San Antonio`
+- [Rabiat Sadiq](https://github.com/rabiats) - `Computer Engineer / CS` - `University of Texas at San Antonio`
 - [member2](https://github.com/cbaker6) - `MAJOR` - `STUDENTS_UNIVERSITY` 
 - [member3](https://github.com/cbaker6) - `MAJOR` - `STUDENTS_UNIVERSITY` 
 - [member4](https://github.com/cbaker6) - `MAJOR` - `STUDENTS_UNIVERSITY`
