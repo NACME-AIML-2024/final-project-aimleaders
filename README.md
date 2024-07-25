@@ -12,7 +12,7 @@ link to each members respective GitHub profile
 -->
 Developed by: 
 - [Rabiat Sadiq](https://github.com/rabiats) - `Computer Engineer / CS` - `University of Texas at San Antonio`
-- [member2](https://github.com/cbaker6) - `MAJOR` - `STUDENTS_UNIVERSITY` 
+- [Emiliano Gonzalez](https://github.com/egonzalez82077) - `Materials Science and Engineering` - `Georgia Institute of Technology` 
 - [member3](https://github.com/cbaker6) - `MAJOR` - `STUDENTS_UNIVERSITY` 
 - [member4](https://github.com/cbaker6) - `MAJOR` - `STUDENTS_UNIVERSITY`
 
