@@ -20,6 +20,23 @@ Developed by:
 <!--
 Give a short description on what your project accomplishes and what tools is uses. In addition, you can drop screenshots directly into your README file to add them to your README. Take these from your presentations.
 -->
+Distress is defined in the NCCN Guidelines for Distress Management as a
+multifactorial, unpleasant experience of a psychologic (ie, cognitive, behavioral,
+emotional), social, spiritual, and/or physical nature that may interfere with the ability to
+cope effectively with cancer, its physical symptoms, and its treatment.” Early evaluation
+and screening for distress leads to early and timely management of psychologic
+distress, which in turn improves medical management [1]. Assuage is a
+HIPAA-compliant research platform that leverages Apple’s ResearchKit and CareKit
+open-source frameworks. In addition, Assuage’s frontend leverages Apple’s HealthKit
+to aggregate sensor-based health data when applicable. Assuage is a distributed
+system where each patients’ device operates online/offline using synchronized vector
+clocks, but currently lacks the ability to leverage ML [2]. The frontend app of Assuage is
+developed in Swift for iOS and watchOS.
+The objective of this project is to use ML to understand patient objective and subjective
+data in remote patient monitoring applications. Specifically to integrate ML into
+Assuage’s frontend to detect/predict Distress via sensor data (objective data). The
+project will leverage tools such as: Xcode, CoreML, CareKit, ResearchKit, HealthKit,
+and PyTorch.
 
 ## Usage instructions
 <!--
