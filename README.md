@@ -190,6 +190,20 @@ Give details on how to install fork and install your project. You can get all of
 2. Change directories into your project
 3. On the command line, type `pip3 install requirements.txt`
 
+## Resources 
+<!--
+-->
+
+[1]. M. B. Riba et al., “Distress Management, Version 3.2019, NCCN Clinical Practice Guidelines in Oncology,” Journal of the National Comprehensive Cancer N
+etwork, vol. 17, no. 10, pp. 1229–1249, Oct. 2019, doi: https://doi.org/10.6004/jnccn.2019.0048.
+
+[2] “Designing Survey–Based Mobile Interfaces for Rural Cancer Patients Using Apple’s ResearchKit and CareKit: Usability Study,” JMIR Preprints, 2015. https://preprints.jmir.org/preprint/57801/accepted (accessed Aug. 01, 2024).
+
+[3] qiriro, “Biometrics for stress monitoring,” Kaggle.com, 2020. https://www.kaggle.com/datasets/qiriro/stress (accessed Aug. 01, 2024).
+
+[4] J. L. Kibler and M. Ma, “Depressive symptoms and cardiovascular reactivity to laboratory behavioral stress,” International Journal of Behavioral Medicine, vol. 11, no. 2, pp. 81–87, Jun. 2004, doi: https://doi.org/10.1207/s15327558ijbm1102_3.
+
+
 
 ## Questions 
 <!--
