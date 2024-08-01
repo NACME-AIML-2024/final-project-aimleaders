@@ -4,7 +4,7 @@
 Name of your team's final project
 -->
 # Final-project - Using ML to Predict Distress in Cancer Patients
-##  Apple [National Action Council for Minorities in Engineering(NACME)](https://www.nacme.org) Artificial Intelligence - Machine Learning (AIML) Intensive Summer Bootcamp at the [University of Southern California](https://viterbischool.usc.edu)
+##  Apple [National Action Council for Minorities in Engineering(NACME)](https://www.nacme.org) Artificial Intelligence - Machine Learning (AIML) Intensive Summer Bootcamp at the [University of Southern California](https://viterbischool.usc.edu) 
 
 <!--
 List all of the members who developed the project and
@@ -40,7 +40,8 @@ Assuage’s frontend to detect/predict Distress via sensor data (objective data)
 project will leverage tools such as: Xcode, CoreML, CareKit, ResearchKit, HealthKit,
 and PyTorch.
 
-![Alt text](path/to/image.png)
+<img width="647" alt="image" src="https://github.com/user-attachments/assets/9ed68e14-1868-48ed-a445-f05e8340176a">
+
 ## Features
 
 - **ML Integration:** Incorporates a machine learning model to predict distress levels from sensor data.
@@ -66,6 +67,24 @@ Due to limited access to real patient data, we generated pseudo data to train an
 2. **Data Attributes:** Included health metrics like heart rate, blood pressure, BMI, active energy, and sleep quality
 3. **Formulas and Correlations:** Established realistic correlations based on research and domain knowledge
 4. **Key Features:** Selected six key features for the model based on relevance and impact on distress prediction
+
+
+## Formulas and Correlations:
+
+To simulate realistic distress levels, we established correlations based on research and domain knowledge:
+Heart Rate & Blood Pressure: For every 10 bpm increase in resting heart rate, systolic BP might increase by 3-5 mmHg.
+* Body Fat Percent & BMI: Approximately 0.7 to 0.8 correlation coefficient.
+* Active Energy & Steps: Correlation coefficient around 0.8 to 0.9.
+* Sleep Habits & Sleep Quality: Correlation coefficient approximately 0.5 to 0.7.
+* Cardio Fitness & Resting Heart Rate: Negative correlation around -0.6 to -0.7.
+* Heart Rate Variability & Stress Level: Negative correlation approximately -0.4 to -0.6.
+
+We refined the pseudo data to achieve meaningful correlations between variables. This helped in simulating real-life distress scenarios and improving model performance.
+<img width="618" alt="image" src="https://github.com/user-attachments/assets/d559b900-7fe5-408a-85d9-5279b8b2c739">
+
+
+
+<img width="810" alt="image" src="https://github.com/user-attachments/assets/b6a2621c-85c2-46d0-871f-176d7faa173a">
 
 
 
