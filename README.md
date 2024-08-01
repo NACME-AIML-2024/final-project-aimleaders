@@ -14,7 +14,7 @@ Developed by:
 - [Rabiat Sadiq](https://github.com/rabiats) - `Computer Engineer / CS` - `University of Texas at San Antonio`
 - [Emiliano Gonzalez](https://github.com/egonzalez82077) - `Materials Science and Engineering` - `Georgia Institute of Technology` 
 - [Emily Mojica](https://github.com/emimojica) - `Computer Science and Business Administration` - `University of Southern California` 
-- [member4](https://github.com/cbaker6) - `MAJOR` - `STUDENTS_UNIVERSITY`
+
 
 ## Description
 <!--
@@ -39,6 +39,35 @@ data in remote patient monitoring applications. Specifically to integrate ML int
 Assuage’s frontend to detect/predict Distress via sensor data (objective data). The
 project will leverage tools such as: Xcode, CoreML, CareKit, ResearchKit, HealthKit,
 and PyTorch.
+
+![Alt text](path/to/image.png)
+## Features
+
+- **ML Integration:** Incorporates a machine learning model to predict distress levels from sensor data.
+- **Real-Time Alerts:** Provides notifications when distress levels exceed a predefined threshold.
+- **Data Utilization:** Leverages sensor-based data for accurate distress prediction.
+- **iOS Integration:** Seamlessly integrates with the existing Assuage iOS app.
+
+## Technologies Used
+
+- Xcode
+- CoreML
+- CareKit
+- ResearchKit
+- HealthKit
+- PyTorch
+- Swift (iOS and watchOS development)
+
+## Pseudo Data Generation
+
+Due to limited access to real patient data, we generated pseudo data to train and evaluate our model. Here's an overview of our data generation process:
+
+1. **Tool Used:** Mockaroo for synthetic data generation
+2. **Data Attributes:** Included health metrics like heart rate, blood pressure, BMI, active energy, and sleep quality
+3. **Formulas and Correlations:** Established realistic correlations based on research and domain knowledge
+4. **Key Features:** Selected six key features for the model based on relevance and impact on distress prediction
+
+
 
 ## Usage instructions
 <!--
