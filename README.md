@@ -186,7 +186,7 @@ Give details on how to install fork and install your project. You can get all of
 <!--
 -->
 Please feel free to contact
-Rabiat Sadiq  - Robbiahsadiq@gmail.com
-Emiliano Gonzalez - egonzalez92@gatech.edu
-Emily Mojica - melymojica@icloud.com
-Rodrigo Aguilar B - Aguilarb@usc.edu
+* Rabiat Sadiq  - Robbiahsadiq@gmail.com
+* Emiliano Gonzalez - egonzalez92@gatech.edu
+* Emily Mojica - melymojica@icloud.com
+* Rodrigo Aguilar B - Aguilarb@usc.edu
