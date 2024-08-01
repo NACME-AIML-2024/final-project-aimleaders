@@ -51,6 +51,11 @@ and PyTorch.
 
 <img width="647" alt="image" src="https://github.com/user-attachments/assets/9ed68e14-1868-48ed-a445-f05e8340176a">
 
+## Major Findings/Learning
+* How to naviagte Xcode for app development
+* How to code via Swift
+* The correlation of psychological indicators and emotional distress
+
 ## Research
 The Wearable Stress and Affect Detection (WESAD) Dataset contains physiological and motion data from 15 participants collected via wearable devices (chest and wrist) during activities inducing stress, amusement, and neutral states. 
 Dataset includes Blood Volume Pulse (BVP), Electrocardiogram (ECG), Electromyogram (EMG), Electrodermal Activity (EDA), Respiration (RESP), body temperature, and acceleration data, useful for stress and emotion detection research.
@@ -144,7 +149,29 @@ https://github.com/user-attachments/assets/704a3645-613f-486c-8282-15453fe6bc13
 
 <img width="810" alt="image" src="https://github.com/user-attachments/assets/b6a2621c-85c2-46d0-871f-176d7faa173a">
 
+## Data Preprocessing
 
+* Import data into Dataframe via Python Pandas Library
+* Normalize data via MinMaxScalar transformation
+* Translate data to PyTorch Dataset
+* Translate dataset into PyTorch Dataloader
+
+## Model Selection
+
+Multiple model types were attractive to and provided high accuracies on the psuedo data:
+
+* Linear Regression
+* Logistic Regression
+* KNN
+* Random Forest
+
+We selected Logistic Regression due to it Binary Classification which yielded highest accuracy of 90.5%.
+
+Additonally we performed a GridSearchCV to find the best parameters for the selected model (tol, C, Solver, max_iter).
+
+## Converted Model to Core ML for easy importation to Assuage App Software (Xcode)
+
+We utlized Core ML to easily translate the model from PyTorch to Core ML which is easily readable in Xcode (Swift).
 
 ## Usage instructions
 <!--
