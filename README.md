@@ -111,6 +111,12 @@ Overall, we found a strong correlation between biometric signals (BVP and RESP) 
 - PyTorch
 - Swift (iOS and watchOS development)
 
+  
+<img width="96" alt="image" src="https://github.com/user-attachments/assets/282e2ab7-77f4-4fcd-b41f-c743e2e90143"> <img width="440" alt="image" src="https://github.com/user-attachments/assets/c6140151-ff89-4995-b260-5e4c8a047d59"> <img width="107" alt="image" src="https://github.com/user-attachments/assets/94040612-87fc-4dec-b381-f1e3121f1915">
+
+
+
+
 ## Methodology
 
 * The methodology involved collecting biometric data through HealthKit and organizing it with CareKit.
@@ -158,20 +164,23 @@ https://github.com/user-attachments/assets/704a3645-613f-486c-8282-15453fe6bc13
 
 ## Model Selection
 
-Multiple model types were attractive to and provided high accuracies on the psuedo data:
+Multiple model types were attractive to and provided high accuracies on the pseudo data:
 
 * Linear Regression
 * Logistic Regression
 * KNN
 * Random Forest
+* Other models
 
-We selected Logistic Regression due to it Binary Classification which yielded highest accuracy of 90.5%.
+We selected Logistic Regression due to its Binary Classification which yielded the highest accuracy of 90.5%.
 
-Additonally we performed a GridSearchCV to find the best parameters for the selected model (tol, C, Solver, max_iter).
+Additionally we performed a GridSearchCV to find the best parameters for the selected model (tol, C, Solver, max_iter).
 
 ## Converted Model to Core ML for easy importation to Assuage App Software (Xcode)
 
 We utlized Core ML to easily translate the model from PyTorch to Core ML which is easily readable in Xcode (Swift).
+<img width="432" alt="image" src="https://github.com/user-attachments/assets/e8373066-8382-4cb2-b145-b1e836f908bb">
+
 
 ## Usage instructions
 <!--
@@ -180,7 +189,7 @@ Give details on how to install fork and install your project. You can get all of
 1. Fork this repo
 2. Change directories into your project
 3. On the command line, type `pip3 install requirements.txt`
-4. ....
+
 
 ## Questions 
 <!--
