@@ -16,6 +16,15 @@ Developed by:
 - [Emily Mojica](https://github.com/emimojica) - `Computer Science and Business Administration` - `University of Southern California` 
 
 
+![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
+![Swift](https://img.shields.io/badge/Code-Swift-informational?style=flat&logo=swift&logoColor=white&color=6aa6f8)
+![CoreML](https://img.shields.io/badge/Code-CoreML-informational?style=flat&logo=coreML&logoColor=white&color=6aa6f8)
+![Xcode](https://img.shields.io/badge/Code-Xcode-informational?style=flat&logo=Xcode&logoColor=white&color=6aa6f8)
+![CareKit](https://img.shields.io/badge/Code-CareKit-informational?style=flat&logo=CareKit&logoColor=white&color=6aa6f8)
+![Healthkit](https://img.shields.io/badge/Code-HealthKit-informational?style=flat&logo=HealthKit&logoColor=white&color=6aa6f8)
+![ResearchKit](https://img.shields.io/badge/Code-ResearchKit-informational?style=flat&logo=ResearchKit&logoColor=white&color=6aa6f8)
+
+
 ## Description
 <!--
 Give a short description on what your project accomplishes and what tools is uses. In addition, you can drop screenshots directly into your README file to add them to your README. Take these from your presentations.
@@ -126,6 +135,10 @@ Heart Rate & Blood Pressure: For every 10 bpm increase in resting heart rate, sy
 We refined the pseudo data to achieve meaningful correlations between variables. This helped in simulating real-life distress scenarios and improving model performance.
 
 <img width="618" alt="image" src="https://github.com/user-attachments/assets/d559b900-7fe5-408a-85d9-5279b8b2c739">
+
+
+## Example
+https://github.com/user-attachments/assets/704a3645-613f-486c-8282-15453fe6bc13
 
 
 
