@@ -118,6 +118,7 @@ Heart Rate & Blood Pressure: For every 10 bpm increase in resting heart rate, sy
 * Heart Rate Variability & Stress Level: Negative correlation approximately -0.4 to -0.6.
 
 We refined the pseudo data to achieve meaningful correlations between variables. This helped in simulating real-life distress scenarios and improving model performance.
+
 <img width="618" alt="image" src="https://github.com/user-attachments/assets/d559b900-7fe5-408a-85d9-5279b8b2c739">
 
 
