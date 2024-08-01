@@ -42,6 +42,44 @@ and PyTorch.
 
 <img width="647" alt="image" src="https://github.com/user-attachments/assets/9ed68e14-1868-48ed-a445-f05e8340176a">
 
+## Research
+The Wearable Stress and Affect Detection (WESAD) Dataset contains physiological and motion data from 15 participants collected via wearable devices (chest and wrist) during activities inducing stress, amusement, and neutral states. 
+Dataset includes Blood Volume Pulse (BVP), Electrocardiogram (ECG), Electromyogram (EMG), Electrodermal Activity (EDA), Respiration (RESP), body temperature, and acceleration data, useful for stress and emotion detection research.
+For our project, we focused on BVP and RESP data, as these were most applicable and attainable using our data collection equipment (Apple Watch and Apple Health).
+
+We identified 5 strong indicators of emotional distress:
+
+Primary Indicators:
+* Higher Heart Rate
+* Lower Heart Rate Variability (HRV)
+* Lower Respiration Rate
+  
+Activity Metrics:
+* Lower Step Count
+* Lower Active Energy (Calories Burned)
+
+
+## Exploratory Data Anlysis (EDA)
+This data validated the influence of emotional distress on Heart Rate and Heart Rate Variability via BVP
+
+<img width="501" alt="image" src="https://github.com/user-attachments/assets/ee7e2f09-b6a7-409f-aa33-4f32ded82136">
+
+This data validated the influence of emotional distress on Respiration Rate via RESP
+
+<img width="501" alt="image" src="https://github.com/user-attachments/assets/ab13072b-fc18-432d-bfcc-4deb73c10f5b">
+
+### Further Data Processing
+Due to time constraints and the complexity of these calculations, we adopted a creative approach by using zero crossings to determine frequency and derive the necessary values.
+BVP:
+
+<img width="569" alt="image" src="https://github.com/user-attachments/assets/140ed49e-0c8d-4a2e-a1e7-58e1d2874bb6">
+
+RESP:
+
+<img width="571" alt="image" src="https://github.com/user-attachments/assets/12e94982-b1ea-4ec8-a1e2-ba2334656392">
+
+Overall, we found a strong correlation between biometric signals (BVP and RESP) and Distress that we could derived values from that are automatically calculated by Apple Watch and Health Kit
+
 ## Features
 
 - **ML Integration:** Incorporates a machine learning model to predict distress levels from sensor data.
