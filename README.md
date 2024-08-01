@@ -97,6 +97,12 @@ Overall, we found a strong correlation between biometric signals (BVP and RESP) 
 - PyTorch
 - Swift (iOS and watchOS development)
 
+## Methodology
+
+* The methodology involved collecting biometric data through HealthKit and organizing it with CareKit.
+* The data was analyzed using machine learning models integrated via Core ML.
+* To present the data and predictions effectively, an intuitive app was developed using SwiftUI.
+
 ## Pseudo Data Generation
 
 Due to limited access to real patient data, we generated pseudo data to train and evaluate our model. Here's an overview of our data generation process:
