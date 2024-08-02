@@ -1,0 +1,156 @@
+Š
+
+x	*
+ €R
+linear_0	*
+ €¢ß¢3
+#com.github.apple.coremltools.sourcetorch==2.2.0¢+
+$com.github.apple.coremltools.version7.2¢:
++com.github.apple.coremltools.source_dialectTorchScript¢º
+com.apple.coreml.preview.params–{"labels": ["Activity Trend", "Heart Rate(bpm)", "Blood Pressure Systolic(mmHg)", "Blood Pressure Diastolic(mmHg)", "Body Mass Index", "Body Fat Percent", "Time Outside(min)", "Electrodermal Activity(microsiemens)", "Steps", "Active Energy(cal)", "Screen Time(min)", "Hearing Level(dB)", "Cardio Fitness(V02 max)", "Heart Rate Variability(ms)", "Respiratory Rate(bpm)", "Inertial", "Sleep Quality(hours)"]}²æ	ù
+mainð
+
+x
+
+
+CoreML5Ñ
+CoreML5Ålinear_0f
+const
+x_to_fp16_dtype_0
+*'
+name
+
+"
+x_to_fp16_dtype_0*
+val
+
+
+"
+fp16¢
+const+
+linear_weight_to_fp16
+
+
+
+*+
+name#
+
+"
+linear_weight_to_fp16*?
+val8
+
+
+
+*"
+@model_path/weights/weight.bin@x
+const#
+linear_bias_to_fp16
+
+
+
+*)
+name!
+
+"
+linear_bias_to_fp16*
+val
+
+
+
+
+:
+‹4h
+cast
+
+x
+
+x
+dtype
+
+x_to_fp16_dtype_0
+cast_1
+
+
+
+*
+name
+
+
+"
+cast_1­
+linear
+x
+
+
+cast_1#
+weight
+
+linear_weight_to_fp16
+bias
+
+linear_bias_to_fp16"
+linear_0_cast_fp16
+
+
+
+*(
+name 
+
+"
+linear_0_cast_fp16ˆ
+const*
+"linear_0_cast_fp16_to_fp32_dtype_0
+*8
+name0
+(
+&"$
+"linear_0_cast_fp16_to_fp32_dtype_0*
+val
+
+
+"
+fp32Œ
+cast
+x
+
+linear_0_cast_fp16/
+dtype&
+$
+"linear_0_cast_fp16_to_fp32_dtype_0
+linear_0
+
+
+*
+name
+
+
+"
+cast_0"å
+	buildInfo×"
+
+
+Ä"Á
+6
+!
+
+"
+coremltools-version
+	
+"
+7.2
+@
+)
+!
+"
+coremltools-component-torch
+
+	"
+2.2.0
+E
+(
+ 
+"
+coremltools-source-dialect
+
+"
+TorchScript
